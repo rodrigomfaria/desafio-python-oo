@@ -8,9 +8,6 @@ class Conta:
         self.cliente = cliente
         self.historico = Historico()
 
-    def saldo(self):
-        return self.saldo
-
     @classmethod
     def nova_conta(cls, cliente, numero):
         return cls(cliente, numero)

@@ -23,7 +23,6 @@ classDiagram
         - agencia: str
         - cliente: Cliente
         - historico: Historico
-        + saldo()
         + nova_conta(cliente, numero)
         + sacar(valor)
         + depositar(valor)
